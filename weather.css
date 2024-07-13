@@ -1,0 +1,78 @@
+body{
+    background-image: url(Brown\ Grey\ Creative\ Modern\ Online\ Portfolio\(1\).png);
+}
+
+#Weather_Page{
+    padding: 30px 0;
+    margin-top: 4rem;
+    color:white;
+}
+
+.weather-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px , 1 fr));
+    grid-gap: 40px;
+    margin-top: 30px;
+    height: 25rem;
+    width: 47rem;
+    margin-left: 21rem;
+}
+
+.weather-list div ul{
+    font-size: 1rem;
+}
+
+
+.sub-title2{
+    margin-left: 37rem;
+    font-size: 60px;
+    font-weight: 600;
+    color:#fff;
+    margin-top: 2rem;
+    /* margin-left: 35rem; */
+    font-family: 'Montreuil', sans-serif;
+}
+
+.weather-list div{
+    background-color: #57443A;
+    padding: 40px;
+    font-size: 13px;
+    font-weight: 300;
+    border-radius: 10px;
+    transition: background 0.5s , tranform 0.5s;
+
+}
+
+.weather-list div i {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.weather-list div p{
+    font-size: 1.5rem;
+}
+
+.weather-list div h2{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.weather-list div a{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    margin-top: 20px;
+    display: inline-block;
+    margin-left: 13rem;
+}
+
+
+.weather-list div a:hover{
+    color:black;
+}
+
+.weather-list div:hover{
+    background-color: #765B4D;
+    transform: translateY(-10px);
+}
